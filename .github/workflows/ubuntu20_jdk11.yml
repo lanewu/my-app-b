@@ -20,8 +20,6 @@ jobs:
       - name: Install required packages
         run: |
           sudo apt-get update
-          ls -l ~/.m2/repository/
-          ls -l ~/.m2/repository/com/mycompany/app/ || echo 'N/A'
       
       - name: Build
         run: |
